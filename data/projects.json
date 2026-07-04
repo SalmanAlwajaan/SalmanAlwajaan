@@ -2,19 +2,22 @@
   {
     "title": "Rooftop Solar Yield Model",
     "description": "A financial and performance model for rooftop PV installations, forecasting yield, payback period, and ROI across different panel configurations.",
-    "url": "https://github.com/SalmanAlwajaan",
-    "image": "https://picsum.photos/seed/solar-rooftop-array/800/600"
+    "type": "pdf",
+    "file": "assets/projects/example.pdf",
+    "image": "assets/projects/example-cover.jpg"
   },
   {
     "title": "Smart Grid Load Balancer",
     "description": "An automation prototype that shifts flexible loads to periods of high renewable generation, reducing peak demand on the local grid.",
-    "url": "https://github.com/SalmanAlwajaan",
-    "image": "https://picsum.photos/seed/smart-grid-control-room/800/600"
+    "type": "link",
+    "url": "https://example.com/smart-grid-load-balancer",
+    "image": "assets/projects/smart-grid-cover.jpg"
   },
   {
     "title": "Wind Farm Condition Monitoring",
-    "description": "A sensor-driven monitoring dashboard for turbine health, flagging maintenance needs before failures affect output.",
-    "url": "https://github.com/SalmanAlwajaan",
-    "image": "https://picsum.photos/seed/wind-turbine-field/800/600"
+    "description": "A sensor-driven monitoring write-up for turbine health, flagging maintenance needs before failures affect output.",
+    "type": "pdf",
+    "file": "assets/projects/example.pdf",
+    "image": "assets/projects/wind-farm-cover.jpg"
   }
 ]

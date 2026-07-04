@@ -1,20 +1,23 @@
 [
   {
     "title": "Why Distributed Solar Needs Smarter Local Storage",
-    "source": "Renewable Energy World",
     "date": "2026-03-14",
-    "url": "https://www.renewableenergyworld.com"
-  },
-  {
-    "title": "Automation Is the Missing Layer in Grid Resilience",
-    "source": "IEEE Spectrum",
-    "date": "2025-11-02",
-    "url": "https://spectrum.ieee.org"
+    "body": [
+      "This is placeholder body text for the first article. Replace it with your own writing in data/articles.json.",
+      "You can write as many paragraphs as you like here. Each string in the \"body\" array becomes one paragraph on the page, so break up your thoughts the same way you would in a document.",
+      "Keep the tone however you like, this is your space to write about what you're working on and what you've learned."
+    ],
+    "source": "Personal notes",
+    "url": ""
   },
   {
     "title": "Lessons from a Year of Rooftop PV Field Data",
-    "source": "Personal Blog",
     "date": "2025-08-21",
-    "url": "https://github.com/SalmanAlwajaan"
+    "body": [
+      "This is placeholder body text for the second article. Edit the \"body\" array in data/articles.json to replace it with your own paragraphs.",
+      "If an article was originally published somewhere else, set \"source\" to the publication name and \"url\" to the link, and a 'read more' link will appear under the article automatically. Leave \"url\" as an empty string if the article only lives here."
+    ],
+    "source": "",
+    "url": ""
   }
 ]

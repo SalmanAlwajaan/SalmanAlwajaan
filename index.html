@@ -39,12 +39,11 @@
 
   <nav class="site-nav" aria-label="Primary">
     <div class="site-nav-inner">
-      <a class="nav-brand" href="#about">Salman Alwajaan</a>
+      <a class="nav-brand" href="#main">Salman Alwajaan</a>
       <ul class="nav-links">
         <span class="nav-indicator" aria-hidden="true"></span>
         <li><a class="nav-link" href="#about">About</a></li>
         <li><a class="nav-link" href="#projects">Projects</a></li>
-        <li><a class="nav-link" href="#articles">Articles</a></li>
         <li><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
       <div class="nav-right">
@@ -63,11 +62,12 @@
 
   <main id="main">
     <section class="hero" id="about">
+      <div class="hero-card">
       <div class="hero-photo-wrap hero-anim">
         <img class="hero-photo" src="assets/photo.jpg" alt="Portrait of Salman Alwajaan" width="132" height="132">
       </div>
       <h1 class="hero-name hero-anim"><span class="gradient-text">Salman Alwajaan</span></h1>
-      <p class="hero-headline hero-anim">Renewable Energy Engineer | Renewable &amp; Sustainable Energy Solutions | Smart Systems &amp; Automation</p>
+      <p class="hero-role hero-anim">Renewable Energy Engineer <span class="hero-role-sep">|</span> Renewable &amp; Sustainable Energy Solutions <span class="hero-role-sep">|</span> Smart Systems &amp; Automation</p>
       <p class="hero-bio hero-anim">I design and build renewable energy systems, focused on practical automation that makes solar, wind, and smart-grid projects more efficient and reliable.</p>
       <div class="hero-actions hero-anim">
         <a class="btn btn-primary" href="https://www.linkedin.com/in/salwajaan" target="_blank" rel="noopener noreferrer">
@@ -76,14 +76,13 @@
           </svg>
           LinkedIn
         </a>
-        <a class="btn btn-secondary" href="assets/CV.pdf" download>
+        <button id="view-cv-btn" class="btn btn-secondary" type="button">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 3v12"/>
-            <path d="m7 10 5 5 5-5"/>
-            <path d="M5 21h14"/>
+            <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/>
+            <circle cx="12" cy="12" r="3"/>
           </svg>
-          Download CV
-        </a>
+          View CV
+        </button>
       </div>
       <div class="hero-contact hero-anim">
         <a class="hero-contact-link" href="mailto:salman.k.alwajaan@gmail.com">
@@ -100,6 +99,7 @@
           +966 53 214 7726
         </a>
       </div>
+      </div>
     </section>
 
     <section class="content-section" id="projects" aria-labelledby="projects-heading">
@@ -108,15 +108,6 @@
       <p class="section-lede">PDF write-ups open right here for reading. Links open the project in a new tab.</p>
       <div class="project-grid" id="project-grid">
         <p class="empty-state">Loading projects…</p>
-      </div>
-    </section>
-
-    <section class="content-section" id="articles" aria-labelledby="articles-heading">
-      <p class="section-eyebrow">Writing</p>
-      <h2 class="section-heading" id="articles-heading">Articles</h2>
-      <p class="section-lede">Notes and write-ups on renewable energy, automation, and the projects I'm working on.</p>
-      <div class="article-list" id="article-list">
-        <p class="empty-state">Loading articles…</p>
       </div>
     </section>
 

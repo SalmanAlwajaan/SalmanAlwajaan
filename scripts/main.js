@@ -294,6 +294,13 @@
     }
   }
 
+  var viewCvBtn = document.getElementById("view-cv-btn");
+  if (viewCvBtn) {
+    viewCvBtn.addEventListener("click", function () {
+      openPdfModal("assets/CV.pdf", "Salman Alwajaan — CV");
+    });
+  }
+
   /* ---------------- Projects ---------------- */
   function renderProjects(projects) {
     var grid = document.getElementById("project-grid");
@@ -356,47 +363,6 @@
     });
   }
 
-  /* ---------------- Articles ---------------- */
-  function renderArticles(articles) {
-    var list = document.getElementById("article-list");
-    if (!list) return;
-
-    if (!articles || articles.length === 0) {
-      list.innerHTML = '<p class="empty-state">No articles yet. Add entries to data/articles.json to see them here.</p>';
-      return;
-    }
-
-    list.innerHTML = "";
-
-    articles.forEach(function (a, i) {
-      var card = document.createElement("article");
-      card.className = "article-card";
-
-      var paragraphs = (a.body || [])
-        .map(function (para) {
-          return "<p>" + escapeHtml(para) + "</p>";
-        })
-        .join("");
-
-      var sourceLink = a.url
-        ? '<a class="article-source" href="' + escapeHtml(a.url) + '" target="_blank" rel="noopener noreferrer">' +
-          escapeHtml(a.source || "Read more") + " " + externalLinkIcon +
-          "</a>"
-        : "";
-
-      card.innerHTML =
-        '<div class="article-head">' +
-        "<h3 class=\"article-title\">" + escapeHtml(a.title) + "</h3>" +
-        '<time class="article-date">' + formatDate(a.date) + "</time>" +
-        "</div>" +
-        '<div class="article-body">' + paragraphs + "</div>" +
-        sourceLink;
-
-      list.appendChild(card);
-      observeReveal(card, i);
-    });
-  }
-
   /* ---------------- Load data ---------------- */
   function loadJSON(path) {
     return fetch(path).then(function (res) {
@@ -410,13 +376,6 @@
     .catch(function () {
       var grid = document.getElementById("project-grid");
       if (grid) grid.innerHTML = '<p class="empty-state">Could not load projects right now.</p>';
-    });
-
-  loadJSON("data/articles.json")
-    .then(renderArticles)
-    .catch(function () {
-      var list = document.getElementById("article-list");
-      if (list) list.innerHTML = '<p class="empty-state">Could not load articles right now.</p>';
     });
 
   /* ---------------- Hero entrance ---------------- */

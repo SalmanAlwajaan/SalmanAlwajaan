@@ -14,18 +14,15 @@ with zero configuration.
 ├─ scripts/
 │  └─ main.js
 ├─ data/
-│  ├─ projects.json
-│  └─ articles.json
+│  └─ projects.json
 ├─ assets/
-│  ├─ photo.jpg              (placeholder — replace with your real photo)
-│  ├─ CV.pdf                  (placeholder — replace with your real CV)
+│  ├─ photo.jpg
+│  ├─ CV.pdf
 │  ├─ favicon.svg / favicon.png
 │  ├─ og-image.jpg            (social-share preview image)
 │  └─ projects/
-│     ├─ example.pdf          (placeholder PDF used by the in-browser preview)
-│     ├─ example-cover.jpg
-│     ├─ smart-grid-cover.jpg
-│     └─ wind-farm-cover.jpg
+│     ├─ *.pdf                (project write-ups, opened in the in-page preview)
+│     └─ covers/*.jpg         (matching cover images)
 └─ README.md
 ```
 
@@ -102,34 +99,11 @@ Upload a new image into `assets/projects/` (any filename), then update the
 `"image"` field of that project's entry in `data/projects.json` to point at
 the new filename.
 
-### Add or edit an article
-
-Open `data/articles.json` and add a new entry. `body` is a list of
-paragraphs — add as many as you like, in the order they should appear:
-
-```json
-{
-  "title": "What I Learned Commissioning My First Microgrid",
-  "date": "2026-06-01",
-  "body": [
-    "This is the first paragraph. Write it just like a normal paragraph of text.",
-    "This is the second paragraph. Each entry in this list becomes its own paragraph on the page, so break your writing up wherever a new paragraph would naturally start.",
-    "You can add a third, fourth, or as many paragraphs as you want, just keep adding strings to this list."
-  ],
-  "source": "Personal notes",
-  "url": ""
-}
-```
-
-`source` and `url` are optional. If you set `url` to a real link, a "read
-more" link with that source name appears under the article. Leave both as
-empty strings (`""`) if the article only lives on this page.
-
 ### Replace your photo or CV
 
 Upload your real files as `assets/photo.jpg` and `assets/CV.pdf` (using
 **Add file → Upload files**, choosing the same filename), overwriting the
-placeholders. Keep the exact filenames so nothing in `index.html` needs to
+existing ones. Keep the exact filenames so nothing in `index.html` needs to
 change.
 
 ### Update contact links
@@ -163,5 +137,4 @@ contact section, and footer) — search for `mailto:`, `tel:`, and
   hover lift/zoom, and parallax are all skipped for users who request
   reduced motion.
 - No external font, icon, or script requests — everything needed to render
-  the page ships in this repository (project cover images and articles you
-  link out to are the only exceptions).
+  the page ships in this repository.

@@ -1,5 +1,19 @@
 [
   {
+    "title": "Senior Design Project",
+    "description": "Solar Water Heating System with PCM-Based Thermal Energy Storage — design and development of a solar water heating system with PCM-based thermal energy storage.",
+    "type": "pdf",
+    "file": "assets/projects/solar-water-heating-pcm.pdf",
+    "image": "assets/projects/covers/solar-water-heating-pcm.jpg"
+  },
+  {
+    "title": "SAM-6 Solar UAV",
+    "description": "Technical engineering report for a solar-electric, long-endurance unmanned aerial vehicle: systems engineering, aerodynamics, solar array sizing, power electronics, and energy analysis.",
+    "type": "pdf",
+    "file": "assets/projects/solar-uav.pdf",
+    "image": "assets/projects/covers/solar-uav.jpg"
+  },
+  {
     "title": "SolarPV Studio",
     "description": "A local web application for solar photovoltaic system simulation — systems architecture, solar physics, energy yield, financial modeling, and automated reporting.",
     "type": "pdf",
@@ -14,13 +28,6 @@
     "image": "assets/projects/covers/power-inverter-education.jpg"
   },
   {
-    "title": "DataForge ETL",
-    "description": "A local-first data pipeline and orchestration engine — connectors for CSV/JSON, REST APIs and databases, transformations, data quality checks, scheduling, and cataloguing.",
-    "type": "pdf",
-    "file": "assets/projects/dataforge-etl.pdf",
-    "image": "assets/projects/covers/dataforge-etl.jpg"
-  },
-  {
     "title": "ERP-Contractor: QHSE Operations Platform",
     "description": "A local-first QHSE operations platform for contractors — systems design, data architecture, compliance engine, KPI dashboards, and reporting.",
     "type": "pdf",
@@ -28,39 +35,25 @@
     "image": "assets/projects/covers/erp-contractor.jpg"
   },
   {
+    "title": "DataForge ETL",
+    "description": "A local-first data pipeline and orchestration engine — connectors for CSV/JSON, REST APIs and databases, transformations, data quality checks, scheduling, and cataloguing.",
+    "type": "pdf",
+    "file": "assets/projects/dataforge-etl.pdf",
+    "image": "assets/projects/covers/dataforge-etl.jpg"
+  },
+  {
+    "title": "Integrated Environmental Registry (ISO 14001:2015)",
+    "description": "Professional HSE documentation: a complete environmental management system registry for an SEC-approved electrical contractor, aligned with ISO 14001:2015 and Saudi EMS requirements.",
+    "type": "pdf",
+    "file": "assets/projects/environmental-plan.pdf",
+    "image": "assets/projects/covers/environmental-plan.jpg"
+  },
+  {
     "title": "Tuwaiq Mechatronics Project",
     "description": "A mechatronics project built during the Tuwaiq program — a browser-based Simon Says game demonstrating sequence logic, timing, and interactive control.",
     "type": "link",
     "url": "https://salmanalwajaan.github.io/Simon-Says/",
-    "image": ""
-  },
-  {
-    "title": "SAM-6 Solar UAV",
-    "description": "Technical engineering report for a solar-electric, long-endurance unmanned aerial vehicle: systems engineering, aerodynamics, solar array sizing, power electronics, and energy analysis.",
-    "type": "pdf",
-    "file": "assets/projects/solar-uav.pdf",
-    "image": "assets/projects/covers/solar-uav.jpg"
-  },
-  {
-    "title": "Senior Design Project",
-    "description": "Solar Water Heating System with PCM-Based Thermal Energy Storage — design and development of a solar water heating system with PCM-based thermal energy storage.",
-    "type": "pdf",
-    "file": "assets/projects/solar-water-heating-pcm.pdf",
-    "image": "assets/projects/covers/solar-water-heating-pcm.jpg"
-  },
-  {
-    "title": "Green Hydrogen: Production, Storage & Applications",
-    "description": "A technical and economic assessment of green hydrogen production, storage, and applications in the energy transition (REE-405, Energy Conversion and Storage).",
-    "type": "pdf",
-    "file": "assets/projects/green-hydrogen.pdf",
-    "image": "assets/projects/covers/green-hydrogen.jpg"
-  },
-  {
-    "title": "LCOE of the Saudi Vision 2030 PV Goal",
-    "description": "How PV panel degradation rate, initial system efficiency, interest rate, and project location impact the levelized cost of electricity for the Saudi Vision 2030 PV target (REE-403, Economics of Energy Applications).",
-    "type": "pdf",
-    "file": "assets/projects/pv-lcoe-vision-2030.pdf",
-    "image": "assets/projects/covers/pv-lcoe-vision-2030.jpg"
+    "image": "assets/projects/covers/tuwaiq-mechatronics.jpg"
   },
   {
     "title": "Combined Heat and Power (CHP)",
@@ -81,11 +74,18 @@
     ]
   },
   {
-    "title": "Integrated Environmental Registry (ISO 14001:2015)",
-    "description": "Professional HSE documentation: a complete environmental management system registry for an SEC-approved electrical contractor, aligned with ISO 14001:2015 and Saudi EMS requirements.",
+    "title": "LCOE of the Saudi Vision 2030 PV Goal",
+    "description": "How PV panel degradation rate, initial system efficiency, interest rate, and project location impact the levelized cost of electricity for the Saudi Vision 2030 PV target (REE-403, Economics of Energy Applications).",
     "type": "pdf",
-    "file": "assets/projects/environmental-plan.pdf",
-    "image": "assets/projects/covers/environmental-plan.jpg"
+    "file": "assets/projects/pv-lcoe-vision-2030.pdf",
+    "image": "assets/projects/covers/pv-lcoe-vision-2030.jpg"
+  },
+  {
+    "title": "Green Hydrogen: Production, Storage & Applications",
+    "description": "A technical and economic assessment of green hydrogen production, storage, and applications in the energy transition (REE-405, Energy Conversion and Storage).",
+    "type": "pdf",
+    "file": "assets/projects/green-hydrogen.pdf",
+    "image": "assets/projects/covers/green-hydrogen.jpg"
   },
   {
     "title": "Loan Risk Assessment",

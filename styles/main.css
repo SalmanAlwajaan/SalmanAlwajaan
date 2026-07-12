@@ -998,6 +998,46 @@ section.content-section {
   }
 }
 
+.project-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.project-card-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.project-card-chip svg {
+  width: 14px;
+  height: 14px;
+}
+
+.project-card-chip:hover,
+.project-card-chip:focus-visible {
+  border-color: var(--accent-strong);
+  color: var(--accent-strong);
+  background: var(--accent-tint);
+}
+
+.project-card-folder {
+  cursor: default;
+}
+
 /* ---------------------------------------------------------
    PDF preview modal
 --------------------------------------------------------- */

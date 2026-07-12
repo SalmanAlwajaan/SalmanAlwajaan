@@ -66,6 +66,11 @@
     '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>' +
     '<path d="M14 2v6h6"/></svg>';
 
+  var folderIcon =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+    '<path d="M4 4h5l2 3h9a1 1 0 0 1 1 1v10a2 2 0 0 1-2 2H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z"/></svg>';
+
   /* ---------------- Scroll reveal ---------------- */
   var revealObserver = null;
   if ("IntersectionObserver" in window && !prefersReducedMotion()) {
@@ -314,6 +319,62 @@
     grid.innerHTML = "";
 
     projects.forEach(function (p, i) {
+      if (p.type === "folder") {
+        var folderCard = document.createElement("div");
+        folderCard.className = "project-card project-card-folder";
+
+        var folderImage = p.image
+          ? '<div class="project-card-image-wrap"><img class="project-card-image" src="' +
+            escapeHtml(p.image) +
+            '" alt="" loading="lazy" width="800" height="500"></div>'
+          : "";
+
+        var folderBadge =
+          '<span class="project-card-badge">' + folderIcon + " " + p.items.length + " files</span>";
+
+        var itemsRow =
+          '<div class="project-card-links">' +
+          p.items
+            .map(function (item, itemIndex) {
+              var itemIsPdf = item.type === "pdf";
+              var icon = itemIsPdf ? pdfIcon : externalLinkIcon;
+              if (itemIsPdf) {
+                return (
+                  '<button type="button" class="project-card-chip" data-item-index="' + itemIndex + '">' +
+                  icon + "<span>" + escapeHtml(item.label) + "</span></button>"
+                );
+              }
+              return (
+                '<a class="project-card-chip" href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">' +
+                icon + "<span>" + escapeHtml(item.label) + "</span></a>"
+              );
+            })
+            .join("") +
+          "</div>";
+
+        folderCard.innerHTML =
+          folderImage +
+          '<div class="project-card-body">' +
+          '<div class="project-card-top">' +
+          "<h3 class=\"project-card-title\">" + escapeHtml(p.title) + "</h3>" +
+          folderBadge +
+          "</div>" +
+          "<p class=\"project-card-desc\">" + escapeHtml(p.description) + "</p>" +
+          itemsRow +
+          "</div>";
+
+        folderCard.querySelectorAll(".project-card-chip[data-item-index]").forEach(function (chip) {
+          var item = p.items[Number(chip.getAttribute("data-item-index"))];
+          chip.addEventListener("click", function () {
+            openPdfModal(item.file, item.label);
+          });
+        });
+
+        grid.appendChild(folderCard);
+        observeReveal(folderCard, i);
+        return;
+      }
+
       var isPdf = p.type === "pdf";
       var tag = isPdf ? "button" : "a";
       var card = document.createElement(tag);

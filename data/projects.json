@@ -1,17 +1,10 @@
 [
   {
-    "title": "Solar Water Heating System with PCM-Based Thermal Energy Storage",
-    "description": "Senior Design Project — design and development of a solar water heating system with PCM-based thermal energy storage.",
+    "title": "SolarPV Studio",
+    "description": "A local web application for solar photovoltaic system simulation — systems architecture, solar physics, energy yield, financial modeling, and automated reporting.",
     "type": "pdf",
-    "file": "assets/projects/solar-water-heating-pcm.pdf",
-    "image": "assets/projects/covers/solar-water-heating-pcm.jpg"
-  },
-  {
-    "title": "SAM-6 Solar UAV",
-    "description": "Technical engineering report for a solar-electric, long-endurance unmanned aerial vehicle: systems engineering, aerodynamics, solar array sizing, power electronics, and energy analysis.",
-    "type": "pdf",
-    "file": "assets/projects/solar-uav.pdf",
-    "image": "assets/projects/covers/solar-uav.jpg"
+    "file": "assets/projects/solar-pv-studio.pdf",
+    "image": "assets/projects/covers/solar-pv-studio.jpg"
   },
   {
     "title": "Power Inverter Education",
@@ -21,11 +14,39 @@
     "image": "assets/projects/covers/power-inverter-education.jpg"
   },
   {
-    "title": "SolarPV Studio",
-    "description": "A local web application for solar photovoltaic system simulation — systems architecture, solar physics, energy yield, financial modeling, and automated reporting.",
+    "title": "DataForge ETL",
+    "description": "A local-first data pipeline and orchestration engine — connectors for CSV/JSON, REST APIs and databases, transformations, data quality checks, scheduling, and cataloguing.",
     "type": "pdf",
-    "file": "assets/projects/solar-pv-studio.pdf",
-    "image": "assets/projects/covers/solar-pv-studio.jpg"
+    "file": "assets/projects/dataforge-etl.pdf",
+    "image": "assets/projects/covers/dataforge-etl.jpg"
+  },
+  {
+    "title": "ERP-Contractor: QHSE Operations Platform",
+    "description": "A local-first QHSE operations platform for contractors — systems design, data architecture, compliance engine, KPI dashboards, and reporting.",
+    "type": "pdf",
+    "file": "assets/projects/erp-contractor.pdf",
+    "image": "assets/projects/covers/erp-contractor.jpg"
+  },
+  {
+    "title": "Tuwaiq Mechatronics Project",
+    "description": "A mechatronics project built during the Tuwaiq program — a browser-based Simon Says game demonstrating sequence logic, timing, and interactive control.",
+    "type": "link",
+    "url": "https://salmanalwajaan.github.io/Simon-Says/",
+    "image": ""
+  },
+  {
+    "title": "SAM-6 Solar UAV",
+    "description": "Technical engineering report for a solar-electric, long-endurance unmanned aerial vehicle: systems engineering, aerodynamics, solar array sizing, power electronics, and energy analysis.",
+    "type": "pdf",
+    "file": "assets/projects/solar-uav.pdf",
+    "image": "assets/projects/covers/solar-uav.jpg"
+  },
+  {
+    "title": "Senior Design Project",
+    "description": "Solar Water Heating System with PCM-Based Thermal Energy Storage — design and development of a solar water heating system with PCM-based thermal energy storage.",
+    "type": "pdf",
+    "file": "assets/projects/solar-water-heating-pcm.pdf",
+    "image": "assets/projects/covers/solar-water-heating-pcm.jpg"
   },
   {
     "title": "Green Hydrogen: Production, Storage & Applications",
@@ -50,10 +71,14 @@
   },
   {
     "title": "Solar Thermal System with Storage",
-    "description": "Design and simulation of a solar thermal energy system, extending the base design with thermal storage and analyzing component connections and performance (REE-401).",
-    "type": "pdf",
-    "file": "assets/projects/solar-thermal.pdf",
-    "image": "assets/projects/covers/solar-thermal.jpg"
+    "description": "Design and simulation of a solar thermal energy system, extending the base design with thermal storage and analyzing component connections and performance (REE-401), with 2D and 3D structural FEA of the assembly in Ansys.",
+    "type": "folder",
+    "image": "assets/projects/covers/solar-thermal.jpg",
+    "items": [
+      { "label": "TRNSYS Report", "type": "pdf", "file": "assets/projects/solar-thermal.pdf" },
+      { "label": "2D FEA (Ansys)", "type": "pdf", "file": "assets/projects/ansys-2d-fea.pdf" },
+      { "label": "3D FEA (Ansys)", "type": "pdf", "file": "assets/projects/ansys-3d-fea.pdf" }
+    ]
   },
   {
     "title": "Integrated Environmental Registry (ISO 14001:2015)",
@@ -63,38 +88,10 @@
     "image": "assets/projects/covers/environmental-plan.jpg"
   },
   {
-    "title": "ERP-Contractor: QHSE Operations Platform",
-    "description": "A local-first QHSE operations platform for contractors — systems design, data architecture, compliance engine, KPI dashboards, and reporting.",
-    "type": "pdf",
-    "file": "assets/projects/erp-contractor.pdf",
-    "image": "assets/projects/covers/erp-contractor.jpg"
-  },
-  {
-    "title": "DataForge ETL",
-    "description": "A local-first data pipeline and orchestration engine — connectors for CSV/JSON, REST APIs and databases, transformations, data quality checks, scheduling, and cataloguing.",
-    "type": "pdf",
-    "file": "assets/projects/dataforge-etl.pdf",
-    "image": "assets/projects/covers/dataforge-etl.jpg"
-  },
-  {
     "title": "Loan Risk Assessment",
     "description": "Statistical modeling of credit scoring and probability of default — a complete framework for analyzing loan risk with risk-based decision systems (ISE-205, Statistics for Engineers).",
     "type": "pdf",
     "file": "assets/projects/loan-risk-assessment.pdf",
     "image": "assets/projects/covers/loan-risk-assessment.jpg"
-  },
-  {
-    "title": "3D Finite-Element Analysis (ANSYS)",
-    "description": "3D structural simulation in ANSYS — geometry, materials, contacts, meshing, and results. Joint project with Hakeem Almohawes.",
-    "type": "pdf",
-    "file": "assets/projects/ansys-3d-fea.pdf",
-    "image": "assets/projects/covers/ansys-3d-fea.jpg"
-  },
-  {
-    "title": "2D Finite-Element Analysis (ANSYS)",
-    "description": "2D structural simulation in ANSYS — geometry, materials, contacts, meshing, and results. Joint project with Hakeem Almohawes.",
-    "type": "pdf",
-    "file": "assets/projects/ansys-2d-fea.pdf",
-    "image": "assets/projects/covers/ansys-2d-fea.jpg"
   }
 ]

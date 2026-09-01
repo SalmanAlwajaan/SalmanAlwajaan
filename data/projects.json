@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Solar Water Heating System with PCM-Based Thermal Energy Storage",
+    "description": "Senior Design Project — design and development of a solar water heating system with PCM-based thermal energy storage.",
+    "type": "pdf",
+    "file": "assets/projects/solar-water-heating-pcm.pdf",
+    "image": "assets/projects/covers/solar-water-heating-pcm.jpg",
+    "section": "featured"
+  },
+  {
+    "title": "Tuwaiq Mechatronics Project — Simon Says",
+    "description": "An embedded interactive device built around an ESP32, combining gesture sensing, multi-color lighting, audio feedback, and an onboard display into a single real-time, escalating challenge system. Designed and built with a team at Tuwaiq Academy.",
+    "type": "folder",
+    "image": "assets/projects/covers/tuwaiq.jpg",
+    "section": "Other",
+    "items": [
+      {
+        "type": "link",
+        "title": "Live website",
+        "url": "https://salmanalwajaan.github.io/simon-says/"
+      },
+      {
+        "type": "pdf",
+        "title": "Project document",
+        "file": "assets/projects/tuwaiq.pdf"
+      }
+    ]
+  },
+  {
+    "title": "SAM-6 Solar UAV",
+    "description": "Technical engineering report for a solar-electric, long-endurance unmanned aerial vehicle: systems engineering, aerodynamics, solar array sizing, power electronics, and energy analysis.",
+    "type": "pdf",
+    "file": "assets/projects/solar-uav.pdf",
+    "image": "assets/projects/covers/solar-uav.jpg",
+    "section": "Other"
+  },
+  {
+    "title": "Power Inverter Education",
+    "description": "A live interactive course website covering grid-forming (GFM) and grid-following (GFL) inverters, high-power converter modeling, and 100% renewable grids. Built with Mohammed and Hakeem.",
+    "type": "link",
+    "url": "https://hakeemalmohawes.github.io/SalmanMohammedHakeem../",
+    "image": "assets/projects/covers/power-inverter-education.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "SolarPV Studio",
+    "description": "A local web application for solar photovoltaic system simulation — systems architecture, solar physics, energy yield, financial modeling, and automated reporting.",
+    "type": "pdf",
+    "file": "assets/projects/solar-pv-studio.pdf",
+    "image": "assets/projects/covers/solar-pv-studio.jpg",
+    "section": "Other"
+  },
+  {
+    "title": "Green Hydrogen: Production, Storage & Applications",
+    "description": "A technical and economic assessment of green hydrogen production, storage, and applications in the energy transition (REE-405, Energy Conversion and Storage).",
+    "type": "pdf",
+    "file": "assets/projects/green-hydrogen.pdf",
+    "image": "assets/projects/covers/green-hydrogen.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "LCOE of the Saudi Vision 2030 PV Goal",
+    "description": "How PV panel degradation rate, initial system efficiency, interest rate, and project location impact the levelized cost of electricity for the Saudi Vision 2030 PV target (REE-403, Economics of Energy Applications).",
+    "type": "pdf",
+    "file": "assets/projects/pv-lcoe-vision-2030.pdf",
+    "image": "assets/projects/covers/pv-lcoe-vision-2030.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "Combined Heat and Power (CHP)",
+    "description": "Energy-efficiency course project analyzing combined heat and power systems — performance, fuel savings, and economics (REE-402, Energy Efficiency).",
+    "type": "pdf",
+    "file": "assets/projects/chp.pdf",
+    "image": "assets/projects/covers/chp.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "Solar Thermal System with Storage",
+    "description": "Design and simulation of a solar thermal energy system, extending the base design with thermal storage and analyzing component connections and performance (REE-401).",
+    "type": "pdf",
+    "file": "assets/projects/solar-thermal.pdf",
+    "image": "assets/projects/covers/solar-thermal.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "Heat Transfer: Steady-State Analysis of a Composite Bar (ANSYS)",
+    "description": "Finite-element study of steady-state heat conduction through a bronze, aluminum-alloy, and structural-steel composite bar, modeled in both 2-D and 3-D in ANSYS Mechanical (REE-306, Heat and Mass Transfer). Joint project with Hakeem Almohawes.",
+    "type": "pdf",
+    "file": "assets/projects/heat-transfer.pdf",
+    "image": "assets/projects/covers/heat-transfer.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "Turbine–Governor Closed-Loop System",
+    "description": "Simulation of a single-area turbine-governor speed-control loop — speed-droop governor, reheat steam turbine dynamics, and generator-load swing behavior under a frequency disturbance (REE-404, Energy Generation and Control).",
+    "type": "pdf",
+    "file": "assets/projects/turbine.pdf",
+    "image": "assets/projects/covers/turbine.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "Wind-Speed Analysis at the Hail Site",
+    "description": "Statistical analysis of a month of measured wind-speed data at the Hail site — binned/histogram methods for mean speed and distribution, compared against the continuous Weibull and Rayleigh probability models (REE-305, Wind Energy Technology).",
+    "type": "pdf",
+    "file": "assets/projects/wind.pdf",
+    "image": "assets/projects/covers/wind.jpg",
+    "section": "UOH"
+  },
+  {
+    "title": "Integrated Environmental Registry (ISO 14001:2015)",
+    "description": "Professional HSE documentation: a complete environmental management system registry for an SEC-approved electrical contractor, aligned with ISO 14001:2015 and Saudi EMS requirements.",
+    "type": "pdf",
+    "file": "assets/projects/environmental-plan.pdf",
+    "image": "assets/projects/covers/environmental-plan.jpg",
+    "section": "Other"
+  },
+  {
+    "title": "ERP-Contractor: QHSE Operations Platform",
+    "description": "A local-first QHSE operations platform for contractors — systems design, data architecture, compliance engine, KPI dashboards, and reporting.",
+    "type": "pdf",
+    "file": "assets/projects/erp-contractor.pdf",
+    "image": "assets/projects/covers/erp-contractor.jpg",
+    "section": "Other"
+  },
+  {
+    "title": "DataForge ETL",
+    "description": "A local-first data pipeline and orchestration engine — connectors for CSV/JSON, REST APIs and databases, transformations, data quality checks, scheduling, and cataloguing.",
+    "type": "pdf",
+    "file": "assets/projects/dataforge-etl.pdf",
+    "image": "assets/projects/covers/dataforge-etl.jpg",
+    "section": "Other"
+  },
+  {
+    "title": "Loan Risk Assessment",
+    "description": "Statistical modeling of credit scoring and probability of default — a complete framework for analyzing loan risk with risk-based decision systems (ISE-205, Statistics for Engineers).",
+    "type": "pdf",
+    "file": "assets/projects/loan-risk-assessment.pdf",
+    "image": "assets/projects/covers/loan-risk-assessment.jpg",
+    "section": "UOH"
+  }
+]
